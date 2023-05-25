@@ -6,7 +6,7 @@ import './footer.css';
 function Footer() {
   return (
     <footer>
-      <a href="#home" className="footer__logo">Imran khan</a>
+      <a href="#home" className="footer__logo">Farhan khan</a>
       <ul className="permalinks">
         <li><a href="#">Home</a></li>
         <li><a href="#about">About</a></li>
