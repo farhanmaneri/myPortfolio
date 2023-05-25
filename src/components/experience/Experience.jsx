@@ -52,13 +52,13 @@ function Experience() {
                 <small className="text-light">Intermediate</small>
               </div>
             </article>
-            <article className="experience__details">
+            {/* <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>Material UI</h4>
                 <small className="text-light">Intermediate</small>
               </div>
-            </article>
+            </article> */}
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
@@ -69,8 +69,8 @@ function Experience() {
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>React Native</h4>
-                <small className="text-light">Beginner</small>
+                <h4>Next Js</h4>
+                <small className="text-light">Intermediate</small>
               </div>
             </article>
           </div>
@@ -78,27 +78,27 @@ function Experience() {
         <div className="experience__backend">
           <h3>Backend Development <br /> Frontend & Backend Deployment</h3>
           <div className="experience__content">
-            <article className="experience__details">
+            {/* <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>Node js</h4>
                 <small className="text-light">Beginner</small>
               </div>
-            </article>
-            <article className="experience__details">
+            </article> */}
+            {/* <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>Mongodb</h4>
                 <small className="text-light">Beginner</small>
               </div>
-            </article>
-            <article className="experience__details">
+            </article> */}
+            {/* <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>Express</h4>
                 <small className="text-light">Beginner</small>
               </div>
-            </article>
+            </article> */}
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
@@ -106,34 +106,34 @@ function Experience() {
                 <small className="text-light">Intermediate</small>
               </div>
             </article>
-            <article className="experience__details">
+            {/* <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>AWS Ec-2</h4>
                 <small className="text-light">Experience</small>
               </div>
-            </article>
+            </article> */}
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>Heroku</h4>
+                <h4>Vercel</h4>
                 <small className="text-light">Experience</small>
               </div>
             </article>
-            <article className="experience__details">
+            {/* <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>Firebase</h4>
                 <small className="text-light">Intermediate</small>
               </div>
-            </article>
-            <article className="experience__details">
+            </article> */}
+            {/* <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>Netlify</h4>
                 <small className="text-light">Experience</small>
               </div>
-            </article>
+            </article> */}
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
@@ -141,13 +141,13 @@ function Experience() {
                 <small className="text-light">Intermediate</small>
               </div>
             </article>
-            <article className="experience__details">
+            {/* <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon"  />
               <div>
                 <h4>CloudFlare</h4>
                 <small className="text-light">Experience</small>
               </div>
-            </article>
+            </article> */}
           </div>
         </div>
       </div>
