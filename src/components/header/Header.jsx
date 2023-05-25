@@ -13,7 +13,7 @@ function Header() {
         <CTA />
         <HeaderSocial  />
         <div className="me">
-          <img src={Me} alt="me" style={{height: "100%", marginLeft: "-2.3rem"}} />
+          <img src={Me} alt="me" style={{height: "100%", marginLeft: "auto"}} />
         </div>
         <a href="#contact" className="scroll__down">
           Scroll Down
