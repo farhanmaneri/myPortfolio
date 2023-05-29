@@ -54,7 +54,7 @@ const Contact = () => {
          
         </div>
 
-        <form ref={formRef} onSubmit={handleSubmit}>
+        {/* <form ref={formRef} onSubmit={handleSubmit}>
           <input
             type="text"
             placeholder="Your Full Name"
@@ -77,7 +77,7 @@ const Contact = () => {
             Send Message
           </button>
           {message && <span>Thanks, I'll reply ASAP :)</span>}
-        </form>
+        </form> */}
       </div>
     </section>
   );
