@@ -1,7 +1,7 @@
 .container.contact__container {
     width: 58%;
     display: grid;
-    grid-template-columns: 30% 58%;
+    /* grid-template-columns: 30% 58%; */
     gap: 12%;
 }
 
@@ -51,11 +51,11 @@ form span {
 
 form {
     display: flex;
-    flex-direction: column;
+    
     gap: 1.2rem;
 }
 
-input,
+/* input,
 textarea {
     width: 100%;
     padding: 1.5rem;
@@ -64,7 +64,7 @@ textarea {
     border: 2px solid var(--color-primary-variant);
     resize: none;
     color: var(--color-white);
-}
+} */
 
 @media screen and (max-width: 1024px){
     .container.contact__container {

@@ -6,29 +6,29 @@ import './contact.css';
 import { TfiSkype } from 'react-icons/tfi'
 
 const Contact = () => {
-  const [message, setMessage] = useState(false);
-  const formRef = useRef();
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    setMessage(true);
-    emailjs
-      .sendForm(
-        'service_1o5buia',
-        'template_r3ly5ta',
-        formRef.current,
-        'AMOCxQ4AT9Mpi7ZhH_SXh'
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
+//   const [message, setMessage] = useState(false);
+//   const formRef = useRef();
+//   const handleSubmit = (e) => {
+//     e.preventDefault();
+//     setMessage(true);
+//     emailjs
+//       .sendForm(
+//         'service_1o5buia',
+//         'template_r3ly5ta',
+//         formRef.current,
+//         'AMOCxQ4AT9Mpi7ZhH_SXh'
+//       )
+//       .then(
+//         (result) => {
+//           console.log(result.text);
+//         },
+//         (error) => {
+//           console.log(error.text);
+//         }
+//       );
 
-    e.target.reset();
-  };
+//     e.target.reset();
+//   };
   return (
     <section id="contact">
       <h5>Get In Touch</h5>
